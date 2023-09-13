@@ -532,7 +532,7 @@ def CrawlComment_v(soup, postID):
 
 driver = webdriver.Chrome()  
 
-Links, pos = FindLinks("https://facebook.com/YohoFans/")  # 获取链接和位置信息
+Links, pos = FindLinks("https://facebook.com/YohoFans/")  
 print(pos)
 PostsInformation = pd.DataFrame()
 PostsComments = pd.DataFrame()
